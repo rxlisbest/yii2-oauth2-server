@@ -12,19 +12,19 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require conquer/oauth2 "*"
+$ php composer.phar require rxlisbest/oauth2 "1.0"
 ```
 or add
 
 ```
-"conquer/oauth2": "*"
+"rxlisbest/oauth2": "1.0"
 ```
 
 to the ```require``` section of your `composer.json` file.
 
 To create database tables run migration command
 ```
-$ yii migrate --migrationPath=@conquer/oauth2/migrations
+$ yii migrate --migrationPath=@ rxlisbest/oauth2/migrations
 ```
 
 ## Usage
