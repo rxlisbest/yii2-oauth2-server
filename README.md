@@ -24,7 +24,7 @@ to the ```require``` section of your `composer.json` file.
 
 To create database tables run migration command
 ```
-$ yii migrate --migrationPath=@ rxlisbest/oauth2/migrations
+$ yii migrate --migrationPath=@rxlisbest/oauth2/migrations
 ```
 
 ## Usage
