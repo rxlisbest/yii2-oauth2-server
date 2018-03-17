@@ -56,7 +56,7 @@ class UserCredentials extends BaseModel
     {
         $user = $this->getUser();
         $acessToken = AccessToken::createAccessToken([
-            'client_id' => 'blog',
+	    'client_id' => $this->client_id,
             'user_id' => $user->user_id,
             'expires' => $this->accessTokenLifetime + time(),
             'scope' => $user->scope,
